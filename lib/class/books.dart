@@ -36,6 +36,8 @@ class Book {
     );
   }
 
+  get imageUrl => null;
+
   // Method to convert Book object back to JSON map
   Map<String, dynamic> toJson() {
     return {
